@@ -40,13 +40,13 @@ cancelBtn.onclick = () => {
   navbar.classList.remove("show");
   menuBtn.classList.remove("hide");
 };
-window.onscroll = () => {
-  if (this.scrollY >= 20) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-};
+// window.onscroll = () => {
+//   if (this.scrollY >= 20) {
+//     navbar.classList.add("sticky");
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// };
 
 //               ----scroll using jquery----
 // $(function () {
