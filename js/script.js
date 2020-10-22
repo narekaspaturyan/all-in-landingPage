@@ -29,7 +29,6 @@ const navbar = document.querySelector(".navbar");
 const menuBtn = document.querySelector(".menu-btn");
 const colorCh = document.querySelectorAll(".colorCh");
 const cancelBtn = document.querySelector(".cancel-btn");
-const menuL = document.querySelector(".menu-list");
 
 menuBtn.onclick = () => {
   navbar.classList.add("show");
@@ -44,7 +43,6 @@ cancelBtn.onclick = () => {
 window.onscroll = () => {
   if (this.scrollY >= 20) {
     navbar.classList.add("sticky");
-    menuL.style.color = "red";
   } else {
     navbar.classList.remove("sticky");
   }
